@@ -102,12 +102,6 @@ body {
     }
 }
 
-@media screen and (min-width: 768px) {
-    .download-control a {
-        width: 100% !important;
-    }
-}
-
 .help-text {
     font-size: 15px;
     margin-top: 0;
@@ -134,18 +128,17 @@ body {
 
 .hero-form {
     display: flex;
-    flex-flow: column;
+    /* flex-flow: row nowrap; */
 }
 
 .download-control {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     display: flex;
     justify-content: center;
 }
 
 .download-control a {
-    margin-right: 8px;
-    width: 40%;
+    margin-left: 8px;
 }
 
 .download-item-icon {
@@ -207,4 +200,8 @@ footer .footer-copyright a {
 .button,
 .input {
     border-radius: 5px;
+}
+
+.control {
+    width: 100% !important;
 }
