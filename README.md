@@ -1,5 +1,13 @@
 ## Basic Instagram Downloader
 
+This is my first react project
+
+Download Profile Photo, Single Post (Video / Photo / Multiple Item Post)
+
+My Social's:
+Twitter: iamsadeq
+Instagram: sadeq.hajizadeh
+
 ## Available Scripts
 
 In the project directory, you can run:
